@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'helvetica-neue';
+    src: url('HelveticaNeue-Thin.otf');
+}
+
+#game_content{
+	position: absolute;
+	top:0px;
+	left: 200px;
+}
+
+#game_header{
+	position: fixed;
+	top: 0px;
+	height: 600px;
+	width: 200px;
+	z-index: 9999999999;
+	background: #fff;
+	border-right: 1px solid #000;
+	overflow-x: auto;
+	font-family: 'helvetica-neue' !important;
+	font-weight: 100 !important;
+	text-align: center;
+}
+
+.pages{
+	max-height: 300px;
+	overflow-y: auto;
+}
+
+#others ul{
+	margin-left:0px;
+	margin-bottom: 15px;
+}
+
+#others ul li{
+	border-bottom: 1px solid #ccc;
+}
